@@ -1,0 +1,55 @@
+.note-area{
+    position: relative;
+}
+.note-box {
+    position: absolute;
+    width: 250px;
+    cursor: move;
+    transform: rotate(0deg);
+
+}
+
+.note-title {
+    width: 100%;
+    border: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    resize: none;
+    overflow: hidden;
+}
+
+.note-title:focus {
+    outline: none;
+}
+
+.note-desc {
+    border: none;
+    width: 100%;
+    resize: none;
+
+
+}
+
+.note-desc:focus {
+    outline: none;
+}
+.close-note-btn{
+    font-size: 25px;
+    cursor: pointer;
+}
+.drag-btn{
+    font-size: 23px;
+}
+.create-note-btn{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color:  blueviolet;
+    color: #fff;
+}
+.create-note-btn:hover{
+    background-color: #fff;
+    border : 1px solid blueviolet;
+    color : blueviolet;
+}
